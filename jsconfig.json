@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./components/*"],
+      "@zipida/grida": ["./components/grida"],
+      "@zipida/grida/": ["./components/grida/*"]
+    }
+  }
+}
